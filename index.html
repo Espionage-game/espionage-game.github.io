@@ -1,184 +1,63 @@
-<!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Espionage</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
+<head>
+<title>Untitled-1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Home</a></li>
-					<li><a href="#work">About</a></li>
-					<li><a href="#reports">Reports</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
 
-		<!-- Home -->
-			<div class="wrapper style1 first">
-				<article class="container" id="top">
-					<div class="row">
-						<div class="4u 12u(mobile)">
-							<span class="image fit"><img src="images/header.jpg" alt="" /></span>
-						</div>
-						<div class="8u 12u(mobile)">
-							<header>
-								<h1>Espionage</h1>
-							</header>
-							<p>Espionage is a side-scroller stealth game in which players try to infiltrate a certain area in each level</p>
-							<a href="#about" class="button big scrolly">More Information</a>
-						</div>
-					</div>
-				</article>
-			</div>
-
-		<!-- Work -->
-			<div class="wrapper style2">
-				<article id="about">
-					<header>
-						<h2>About Project</h2>
-						<p>Espionage is a side-scroller stealth game in which players try to infiltrate a certain area in each level...</p>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="12u 12u(mobile)">
-								<section class="box style1">
-									<span class="icon featured fa-comments-o"></span>
-									<h3>Project Description</h3>
-									<p>Espionage is a side-scroller stealth game in which players try to infiltrate a certain area in each level. Espionage has an adaptive AI, it improve and adjust difficulty of the game based on players previous actions.</p>
-								</section>
-							</div>
-						</div>
-					</div>
-					<footer>
-						<p>You can find more information about the project in project reports.</p>
-						<a href="#reports" class="button big scrolly">Reports</a>
-					</footer>
-				</article>
-			</div>
-
-		<!-- Portfolio -->
-			<div class="wrapper style3">
-				<article id="reports">
-					<header>
-						<h2>Project Reports.</h2>
-						<p>Specification Report - Analysis Report - Design Report - Final Report</p>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="reports/spec.pdf" class="image featured"><img src="images/report.jpg" alt="" /></a>
-									<h3><a href="reports/spec.pdf">Speficiation Report</a></h3>
-									<!--<p></p>-->
-								</article>
-							</div>
-						</div>
-					</div>
-					<footer>
-						<p>Do you have question?</p>
-						<a href="#contact" class="button big scrolly">Contact Us</a>
-					</footer>
-				</article>
-			</div>
-
-		<!-- Contact -->
-			<div class="wrapper style4">
-				<article id="contact" class="container 75%">
-					<header>
-						<h2>Contact Us</h2>
-						<p>You can contact us via <i>espionage.project@gmail.com</i> or by filling the form below:</p>
-					</header>
-					<div>
-						<div class="row">
-							<div class="12u">
-								<form method="post" action="#">
-									<div>
-										<div class="row">
-											<div class="6u 12u(mobile)">
-												<input type="text" name="name" id="name" placeholder="Name" />
-											</div>
-											<div class="6u 12u(mobile)">
-												<input type="text" name="email" id="email" placeholder="Email" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<input type="text" name="subject" id="subject" placeholder="Subject" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row 200%">
-											<div class="12u">
-												<ul class="actions">
-													<li><input type="submit" value="Send Message" /></li>
-													<li><input type="reset" value="Clear Form" class="alt" /></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<hr />
-								<!--<h3>Social platforms to follow the project:</h3>
-								<ul class="social">
-									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-									<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-									<li><a href="https://github.com/Shathra/senior-project" class="icon fa-github"><span class="label">Github</span></a></li>
-									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
-									<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
-									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
-									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
-									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
-									<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
-									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
-									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
-									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
-									-->
-								</ul>-->
-								<hr />
-							</div>
-						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-				</article>
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<center><body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/genon.gif','images/useron.gif','images/credon.gif','images/conton.gif')">
+<!-- Save for Web Slices (Untitled-1) -->
+<table id="Table_01" width="1024" height="768" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="9">
+			<img src="images/logo.gif" width="1024" height="165" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/index_02.gif" width="140" height="23" alt=""></td>
+		<td>
+		  <a href="general.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','images/genon.gif',1)"><img src="images/genoff.gif" alt="General" name="Image11" width="125" height="23" border="0"></a></td>
+		<td>
+			<img src="images/index_04.gif" width="69" height="23" alt=""></td>
+		<td>
+		  <a href="usermanual.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','images/useron.gif',1)"><img src="images/useroff.gif" alt="User Manual" name="Image12" width="187" height="23" border="0"></a></td>
+		<td>
+			<img src="images/index_06.gif" width="50" height="23" alt=""></td>
+		<td>
+		  <a href="credits.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','images/credon.gif',1)"><img src="images/credoff.gif" alt="Credits" name="Image13" width="123" height="23" border="0"></a></td>
+		<td>
+			<img src="images/index_08.gif" width="67" height="23" alt=""></td>
+		<td>
+		  <a href="contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','images/conton.gif',1)"><img src="images/contoff.gif" alt="Contact" name="Image14" width="126" height="23" border="0"></a></td>
+		<td>
+			<img src="images/index_10.gif" width="137" height="23" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="9">
+			<img src="images/index_11.gif" width="1024" height="580" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body></center>
 </html>
